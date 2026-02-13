@@ -27,7 +27,7 @@ def send_requests():
 
         sent_requests += 1
         progress_bar(sent_requests, total_requests)
-        time.sleep(0.0005)  # kleine Pause für sauberes Testing
+       # time.sleep(0.0005)  # kleine Pause für sauberes Testing
 
     print("\n\n✅ Fertig!")
     print(f"Gesendet: {sent_requests}")
